@@ -114,7 +114,7 @@ img {
     position: relative;
     width: 100%;
     height: 420px;
-    background: orange;
+    background: #E0DBDB;
     margin: 0px auto;
 }
 
@@ -123,7 +123,7 @@ img {
     color: #1A265C;
     top: 20px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 16px;
 }
 
@@ -137,8 +137,12 @@ img {
     height: 65px;
     top: 60px;
     left: 15px;
-    background: red;
+    background: #FDEEEE;
     border-radius: 10px;
+}
+
+.nc1{
+    
 }
 
 .nc2{
@@ -153,14 +157,57 @@ img {
     top: 285px;
 }
 
+.top-notice{
+    position: absolute;
+    color: #1a265c;
+    top: 12px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.notice-content span{
+    position: absolute;
+    color: #e68a00;
+    top: 33px;
+    left: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .nc-view{
     position: absolute;
     width: 80%;
     height: 40px;
     top: 360px;
     left: 30px;
-    background: blue;
+    background: #1a265c;
     border-radius: 10px;
+}
+
+.view-all{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.angle-right{
+    position: absolute;
+    color: white;
+    top: 14px;
+    left: 40px;
+}
+
+.angle-left{
+    position: absolute;
+    color: white;
+    top: 14px;
+    right: 40px;
 }
 
 .body-left-2{
