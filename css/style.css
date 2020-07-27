@@ -95,6 +95,11 @@ body{
     text-decoration: none;
 }
 
+.menu .navbar-nav > li > a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 img {
     position: absolute;
     max-width: 80%;
@@ -103,12 +108,19 @@ img {
     z-index: 1;
 }
 
-.slogan-bar{
+.date-bar{
     position: relative;
     background-color: #1a265c;
     height: 30px;
+    color: #fff;
+    padding-top: 8px;
+    
 }
 
+.date{
+    float: right;
+    margin-right: 90px;
+}
 
 .container{
 	position: relative;
@@ -247,6 +259,7 @@ img {
     top: 14px;
     right: 40px;
 }
+
 
 .banner-right{
     position: absolute;
@@ -400,9 +413,9 @@ img {
     text-indent: 30px;
   }
   
-  .about1{
+.about1{
     top: 250px;
-  }
+}
   
   .read{
     position: absolute;
@@ -417,7 +430,7 @@ img {
     text-decoration: none;
 }
 
-  .foot {
+.foot {
     position: fixed;
     width: 100%;
     height: 80px;
@@ -426,3 +439,46 @@ img {
     border-top: 1px solid #e1e1e1;
     padding: 15px 0;
 }
+
+.comp{
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+
+.comp{
+    position: absolute;
+    left: 80px;
+    color: white;
+}
+
+.comp2{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.comp3{
+    position: absolute;
+    right: 80px;
+    color: white;
+}
+
+.comp4{
+    position: absolute;
+    top: 30px;
+    right: 154px;
+    color: white;
+}
+
+.peace{
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
