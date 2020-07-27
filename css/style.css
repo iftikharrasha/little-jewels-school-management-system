@@ -1,17 +1,15 @@
-*, ::after, ::before {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    box-sizing: border-box;
 }
 
 body{
     line-height: 22px;
-    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #444;
+    color: #0c0c0c;
+    background: #cfcfcf;
 }
 
 .header-position{
@@ -120,11 +118,66 @@ img {
     margin: 0px auto;
 }
 
+.notice{
+    position: absolute;
+    color: #1A265C;
+    top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.align1{
+    left: 75px;
+}
+
+.notice-content{
+    position: absolute;
+    width: 90%;
+    height: 65px;
+    top: 60px;
+    left: 15px;
+    background: red;
+    border-radius: 10px;
+}
+
+.nc2{
+    top: 135px;
+}
+
+.nc3{
+    top: 210px;
+}
+
+.nc4{
+    top: 285px;
+}
+
+.nc-view{
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    top: 360px;
+    left: 30px;
+    background: blue;
+    border-radius: 10px;
+}
+
 .body-left-2{
     position: relative;
     width: 100%;
     height: 220px;
     background: yellow;
+}
+
+.admin{
+    position: absolute;
+    width: 90%;
+    height: 180px;
+    top: 20px;
+    left: 15px;
+    background: chocolate;
+    border-radius: 10px;
 }
 
 .body-right{
@@ -142,12 +195,31 @@ img {
     background: rosybrown;
   }
 
+  .banner{
+    position: absolute;
+    width: 80%;
+    height: 180px;
+    top: 20px;
+    left: 80px;
+    background: yellowgreen;
+}
+
   .body-right-2{
     position: relative;
     width: 100%;
     height: 420px;
     background: lightcoral;
   }
+
+  .founded{
+    position: absolute;
+    width: 80%;
+    height: 380px;
+    top: 20px;
+    left: 80px;
+    background: lightblue;
+    border-radius: 10px;
+}
 
   .foot {
     position: fixed;
