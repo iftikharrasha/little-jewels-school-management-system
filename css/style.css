@@ -100,7 +100,7 @@ img {
     width: 65%;
     position: absolute;
 	left: 17%;
-    background-color: #C7C5C5;
+    background-color:white;
 }
 
 .body-left{
@@ -129,6 +129,19 @@ img {
 
 .align1{
     left: 75px;
+}
+
+.align2{
+    right: 80px;
+    top: 50px;
+}
+.align3{
+    right: 80px;
+    top: 110px;
+}
+.align4{
+    right: 80px;
+    top: 170px;
 }
 
 .notice-content{
@@ -210,6 +223,20 @@ img {
     right: 40px;
 }
 
+.banner-right{
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 30px;
+}
+
+.banner-left{
+    position: absolute;
+    color: white;
+    top: 60px;
+    right: 30px;
+}
+
 .body-left-2{
     position: relative;
     width: 100%;
@@ -286,7 +313,7 @@ img {
     position: relative;
     width: 100%;
     height: 220px;
-    background: rosybrown;
+    background: #EAE7E5;
   }
 
   .banner{
@@ -295,14 +322,21 @@ img {
     height: 180px;
     top: 20px;
     left: 80px;
-    background: yellowgreen;
+    background: black;
+}
+
+.banner img{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    left: 70px;
 }
 
   .body-right-2{
     position: relative;
     width: 100%;
     height: 420px;
-    background: lightcoral;
+    background: #EAE7E5;
   }
 
   .founded{
@@ -311,8 +345,51 @@ img {
     height: 380px;
     top: 20px;
     left: 80px;
-    background: lightblue;
+    background: #E0DBDB;
     border-radius: 10px;
+}
+
+.founded img{
+    position: absolute;
+    width: 60%;
+    height: 200px;
+    top: 30px;
+    left: 30px;
+}
+
+.founded span{
+    position: absolute;
+    color: #e68a00;
+    top: 70px;
+    right: 80px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about{
+    position: absolute;
+    color: #757575;
+    left: 30px;
+    font-size: 12px;
+    padding-right: 45px;
+    text-indent: 30px;
+  }
+  
+  .about1{
+    top: 250px;
+  }
+  
+  .read{
+    position: absolute;
+    top: 330px;
+    right: 80px;
+    width: 15%;
+    height: 20px;
+    color: white;
+    background-color: #1a265c;
+    border-color: black;
+    text-align: center;
+    text-decoration: none;
 }
 
   .foot {
