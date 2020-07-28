@@ -62,7 +62,13 @@ body{
     padding: 6px 0;
 }
 
-.navbar {
+.navbar-top {
+    position: relative;
+    display: flex;
+    padding: .2rem 1rem;
+}
+
+.navbar-middle {
     position: relative;
     display: flex;
     padding: .5rem 1rem;
@@ -75,6 +81,13 @@ body{
     margin-bottom: -67px;
     width: 100px;
     margin-left: -90px;
+}
+
+.badge{
+    right: 30px;
+    max-width: 30%;
+    width: 30px;
+    height: 40px;
 }
 
 .collapse-middle{
@@ -106,7 +119,7 @@ body{
     text-decoration: underline;
 }
 
-.top-nav .navbar .navbar-nav .nav-item {
+.top-nav .navbar-top .navbar-nav .nav-item {
     border-right: .5px solid #E0DBDB;
 }
 
@@ -173,6 +186,46 @@ img {
     margin: 0px auto;
 }
 
+.body-teachers-left{
+    position: absolute;
+    width: 33.3%;
+    height: 640px;
+    background: #E0DBDB;
+}
+
+.body-teachers-middle{
+    position: absolute;
+    left: 33.3%;
+    width: 33.3%;
+    height: 640px;
+    background: #E0DBDB;
+}
+
+.body-teachers-right{
+    position: absolute;
+    left: 66.3%;
+    width: 33.3%;
+    height: 640px;
+    background: #E0DBDB;
+}
+
+.teacher-1{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    top: 70px;
+    left: 20px;
+    background: white;
+    border-radius: 17px;
+    margin-bottom: 15px;
+  }
+
+  .teacher-pic{
+      position: absolute;
+      top: 25px;
+      left: 30px;
+  }
+
 .notice{
     position: absolute;
     color: #1A265C;
@@ -202,6 +255,18 @@ img {
 .align5{
     left: 40px;
     top: 20px;
+    z-index: 1;
+}
+
+.align6{
+    left: 320px;
+    top: 110px;
+    z-index: 1;
+}
+
+.align7{
+    left: 50px;
+    top: 40px;
     z-index: 1;
 }
 
@@ -252,6 +317,37 @@ img {
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.info{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.info-1{
+    top: 40px;
+    left: 120px;
+    color: #1a265c;
+}
+
+.info-2{
+    top: 60px;
+    left: 120px;
+    color: #e68a00;
+}
+
+.info-3{
+    top: 80px;
+    left: 120px;
+    color: #1a265c;
+}
+
+.info-4{
+    top: 100px;
+    left: 120px;
+    color: #1a265c;
 }
 
 .notice-content span{
@@ -336,6 +432,16 @@ img {
     border-radius: 10px;
 }
 
+.std-login {
+    position: absolute;
+    width: 50%;
+    height: 180px;
+    top: 160px;
+    left: 180px;
+    background: #FDEEEE;
+    border-radius: 10px;
+}
+
 .admin-label{
     position: absolute;
     color: #1a265c;
@@ -371,16 +477,46 @@ img {
     left: 15px;
 }
 
+.f3{
+    top: 35px;
+    left: 25px;
+}
+
+.f4{
+    top: 95px;
+    left: 25px;
+}
+
 .submit{
     position: absolute;
-    top: 135px;
-    left: 15px;
-    width: 35%;
-    height: 20px;
     color: white;
     border-radius: 20px;
     background-color: #1a265c;
     border-color: black;
+}
+
+.s1{
+    width: 32%;
+    height: 20px;
+    top: 135px;
+    left: 15px;
+}
+
+.s2{
+    width: 20%;
+    height: 20px;
+    top: 135px;
+    left: 15px;
+}
+
+.forgot{
+    position: absolute;
+    width: 40%;
+    height: 20px;
+    top: 135px;
+    right: 15px;
+    color: #1a265c;
+    text-decoration: none;
 }
 
 .body-right{
@@ -408,6 +544,7 @@ img {
     border-radius: 17px;
     margin-bottom: 10px;
   }
+
 
   .banner{
     position: absolute;
@@ -554,9 +691,6 @@ img {
     display: inline-block;
     position: absolute;
     display: inline-block;
-    left: 200px;
-    bottom: 11px;
-
   }
   
   .pagination a {
@@ -567,11 +701,21 @@ img {
   }
   
   .pagination a.active {
-    background-color: #4CAF50;
+    background-color: rgb(26, 38, 92);
     color: white;
   }
   
   .pagination a:hover:not(.active)
   {
     background-color: #ddd;
+}
+
+.pg1{
+    left: 280px;
+    bottom: 11px;
+}
+
+.pg2{
+    left: 30px;
+    bottom: 15px;
 }
