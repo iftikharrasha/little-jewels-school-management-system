@@ -226,6 +226,58 @@ img {
       left: 30px;
   }
 
+  .body-user-top{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background: #E0DBDB;
+}
+
+  .body-user-left{
+    position: absolute;
+    top: 80px;
+    width: 40%;
+    height: 300px;
+    background: #E0DBDB;
+}
+
+.body-user-right{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    width: 60%;
+    height: 300px;
+    background: #E0DBDB;
+}
+
+.body-user-below{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    width: 100%;
+    height: 280px;
+    background: #E0DBDB;
+}
+
+.student{
+    position: relative;
+    width: 70%;
+    height: 200px;
+    top: 70px;
+    left: 100px;
+    background: white;
+    border-radius: 17px;
+    margin-bottom: 15px;
+  }
+
+  .student-pic{
+    width: 25%;
+    height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
 .notice{
     position: absolute;
     color: #1A265C;
@@ -267,6 +319,18 @@ img {
 .align7{
     left: 50px;
     top: 40px;
+    z-index: 1;
+}
+
+.align8{
+    left: 110px;
+    top: 40px;
+    z-index: 1;
+}
+
+.align9{
+    left: 60px;
+    top: 0px;
     z-index: 1;
 }
 
@@ -347,6 +411,36 @@ img {
 .info-4{
     top: 100px;
     left: 120px;
+    color: #1a265c;
+}
+
+.info-5{
+    top: 50px;
+    left: 200px;
+    color: #1a265c;
+}
+
+.info-6{
+    top: 70px;
+    left: 200px;
+    color: #1a265c;
+}
+
+.info-7{
+    top: 90px;
+    left: 200px;
+    color: #1a265c;
+}
+
+.info-8{
+    top: 110px;
+    left: 200px;
+    color: #1a265c;
+}
+
+.info-9{
+    top: 130px;
+    left: 200px;
     color: #1a265c;
 }
 
@@ -442,6 +536,32 @@ img {
     border-radius: 10px;
 }
 
+.result{
+    position: absolute;
+    width: 80%;
+    height: 180px;
+    top:70px;
+    left: 40px;
+    background: #FDEEEE;
+    border-radius: 10px;
+}
+
+select{
+    position: absolute;
+    width: 85%;
+    height: 25px;
+    color: #000;
+}
+ #s1{
+    top: 40px;
+    left: 25px;
+ }
+
+ #s2{
+    top: 100px;
+    left: 25px;
+ }
+
 .admin-label{
     position: absolute;
     color: #1a265c;
@@ -493,6 +613,7 @@ img {
     border-radius: 20px;
     background-color: #1a265c;
     border-color: black;
+    cursor: pointer;
 }
 
 .s1{
@@ -719,3 +840,29 @@ img {
     left: 30px;
     bottom: 15px;
 }
+
+table {
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    color: #1a265c;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  td, a {
+    color: #1a265c;
+    text-decoration: none;
+  }
+  
+  tr {
+    background-color: #FDEEEE;
+  }
