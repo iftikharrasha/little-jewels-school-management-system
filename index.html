@@ -15,7 +15,15 @@
         <header class="container-header">
             <div class="top-nav">
                 <div class="container-top">
-                    
+                    <nav class="navbar">
+                        <div class="collapse-top">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-user"></i> My Account</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
             <div class="header-middle">
@@ -25,7 +33,7 @@
                             <a class="navbar-brand" href="">
                                 <img src="./images/logo.png" alt="">
                             </a>
-                            <div class="collapse">
+                            <div class="collapse-middle">
                                 <ul class="navbar-nav">
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">Teachers</a></li>
@@ -43,7 +51,8 @@
             </div>
         </header>
         <div class="date-bar">
-            <p class="date">27/07/2020 8.20pm</p>
+            <p class="date"><span id="datetime"></span></p>
+            
         </div>
     </div>
     
@@ -120,7 +129,12 @@
         <p class="comp2">A Modern Thoughtful Kinder Garten & Junior School.</p>
         <p class="comp3">Abhaynagar, Jessore, Bangladesh</p>
         <p class="comp4">Developed & Maintained by </p>
-        <p class="peace">Peacebusters</p>
+        <a href="peacebusters.team" class="peace">Peacebusters</a>
     </footer>
 </body>
+
+<script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+    </script>
 </html>
