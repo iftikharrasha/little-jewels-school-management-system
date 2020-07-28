@@ -199,6 +199,12 @@ img {
     top: 170px;
 }
 
+.align5{
+    left: 40px;
+    top: 20px;
+    z-index: 1;
+}
+
 .notice-content{
     position: absolute;
     width: 90%;
@@ -225,6 +231,19 @@ img {
     top: 285px;
 }
 
+.nc5{
+    top: 360px;
+}
+
+.nc6{
+    top: 435px;
+}
+
+.nc7{
+    top: 510px;
+}
+
+
 .top-notice{
     position: absolute;
     color: #1a265c;
@@ -248,10 +267,17 @@ img {
     position: absolute;
     width: 80%;
     height: 40px;
-    top: 360px;
     left: 30px;
     background: #1a265c;
     border-radius: 10px;
+}
+
+.nc-v-1{
+    top: 360px;
+}
+
+.nc-v-2{
+    top: 585px;
 }
 
 .view-all{
@@ -372,6 +398,17 @@ img {
     background: #EAE7E5;
   }
 
+  .notice-1{
+    position: relative;
+    width: 90%;
+    height: 80px;
+    top: 50px;
+    left: 40px;
+    background: white;
+    border-radius: 17px;
+    margin-bottom: 10px;
+  }
+
   .banner{
     position: absolute;
     width: 80%;
@@ -434,11 +471,14 @@ img {
 .about1{
     top: 250px;
 }
+
+.about2{
+    top: 35px;
+}
+  
   
   .read{
     position: absolute;
-    top: 330px;
-    right: 80px;
     width: 15%;
     height: 20px;
     color: white;
@@ -446,6 +486,16 @@ img {
     border-color: black;
     text-align: center;
     text-decoration: none;
+}
+
+.read-1{
+    top: 330px;
+    right: 80px;
+}
+
+.read-2{
+    top: 35px;
+    right: 80px;
 }
 
 .foot {
@@ -500,4 +550,28 @@ img {
     text-decoration: none;
 }
 
+.pagination {
+    display: inline-block;
+    position: absolute;
+    display: inline-block;
+    left: 200px;
+    bottom: 11px;
 
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active)
+  {
+    background-color: #ddd;
+}
