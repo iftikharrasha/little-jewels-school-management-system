@@ -259,6 +259,42 @@ img {
     background: #E0DBDB;
 }
 
+.body-alumni-left{
+    position: absolute;
+    width: 50%;
+    height: 640px;
+    background: #E0DBDB;
+}
+
+.body-alumni-right{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 640px;
+    background: #E0DBDB;
+}
+
+.register{
+    position: absolute;
+    width: 70%;
+    height: 450px;
+    top:90px;
+    left: 80px;
+    background: #FDEEEE;
+    border-radius: 10px;
+}
+
+.instructions{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    top:90px;
+    left: 100px;
+    background: white;
+    border-radius: 17px;
+    margin-bottom: 15px;
+  }
+
 .student{
     position: relative;
     width: 70%;
@@ -444,6 +480,55 @@ img {
     color: #1a265c;
 }
 
+.info-10{
+    top: 40px;
+    left: 40px;
+    color: #1a265c;
+    font-size: 16px;
+}
+
+.info-11{
+    top: 80px;
+    left: 40px;
+    color: #1a265c;
+    text-indent: 30px;
+    padding-right: 20px;
+}
+
+.info-12{
+    top: 180px;
+    left: 40px;
+    color: #1a265c;
+    text-indent: 30px;
+    padding-right: 20px;
+}
+
+.info-13{
+    top: 260px;
+    left: 40px;
+    color: #1a265c;
+    text-indent: 30px;
+    padding-right: 20px;
+}
+
+.info-14{
+    top: 300px;
+    left: 40px;
+    color: #1a265c;
+    text-indent: 30px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.info-15{
+    top: 320px;
+    left: 40px;
+    color: #1a265c;
+    text-indent: 30px;
+    padding-right: 20px;
+    text-align: left;
+}
+
 .notice-content span{
     position: absolute;
     color: #e68a00;
@@ -572,12 +657,42 @@ select{
 
 .al1{
     top: 12px;
-    left: 15px;
+    left: 30px;
 }
 
 .al2{
     top: 72px;
-    left: 15px;
+    left: 30px;
+}
+
+.al11{
+    top: 32px;
+    left: 30px;
+}
+
+.al22{
+    top: 92px;
+    left: 30px;
+}
+
+.al3{
+    top: 152px;
+    left: 30px;
+}
+
+.al4{
+    top: 212px;
+    left: 30px;
+}
+
+.al5{
+    top: 272px;
+    left: 30px;
+}
+
+.al6{
+    top: 332px;
+    left: 30px;
 }
 
 .field{
@@ -585,6 +700,18 @@ select{
     width: 85%;
     height: 25px;
     color: #000;
+}
+
+.f33{
+    top: 35px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f44{
+    top: 95px;
+    left: 25px;
+    font-size: 14px;
 }
 
 .f1{
@@ -600,13 +727,37 @@ select{
 }
 
 .f3{
-    top: 35px;
+    top: 55px;
     left: 25px;
     font-size: 14px;
 }
 
 .f4{
-    top: 95px;
+    top: 115px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f5{
+    top: 175px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f6{
+    top: 235px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f7{
+    top: 295px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f8{
+    top: 355px;
     left: 25px;
     font-size: 14px;
 }
@@ -631,7 +782,14 @@ select{
     width: 20%;
     height: 20px;
     top: 135px;
-    left: 15px;
+    left: 25px;
+}
+
+.s3{
+    width: 20%;
+    height: 20px;
+    top: 400px;
+    left: 50px;
 }
 
 .forgot{

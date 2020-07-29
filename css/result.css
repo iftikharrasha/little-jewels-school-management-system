@@ -1,0 +1,154 @@
+/* Common Style */
+        * {
+            margin: 0px;
+        }
+
+        body {
+            font-size: 22px;
+            background-color: #FFF;
+            -webkit-print-color-adjust: exact;
+        }
+
+        /* Main Div Style */
+        .main {
+            width: 800px;
+            min-height: 1000px;
+            margin: 10px auto;
+            padding: 20px;
+            border: 5px solid #999;
+        }
+
+        /* Header Style */
+        .header {
+            font-size: 33px;
+            text-align: center;
+            font-weight: bold;
+            /* overflow:auto; */
+
+        }
+
+        .header img {
+            float: left;
+        }
+
+        .header2 {
+            margin: 0px 250px;
+            background: #CCC;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            border: 2px solid #CCC;
+        }
+
+        .header3 {
+            margin: 0px 250px;
+            text-align: center;
+            font-size: 28px;
+            border: 2px solid #CCC;
+        }
+
+        /* Student Information table */
+        table.left {
+            width: 550px;
+            float: left;
+            margin: 20px 0px 0px 0px;
+        }
+
+        table.left td {
+            height: 30px;
+            font-size: 22px;
+        }
+
+        pre, .i {
+            font-size: 24px;
+            /*font-weight:normal;*/
+            font-family: "Monotype Corsiva", Times, serif;
+        }
+
+        table.right {
+            width: 230px;
+
+            margin: 20px 0px 0px 0px;
+            float: right;
+            border: 1px solid #999;
+        }
+
+        table.right td {
+            border: 1px solid #ccc;
+            padding: 0px 5px 0px 5px;
+            font-size: 12px;
+        }
+
+        /* Main Result Table Style */
+        table.bottom {
+            width: 100%;
+            border: 1px solid #999;
+        }
+
+        table.bottom td {
+            border: 1px solid #ccc;
+            text-align: right;
+            padding: 0px 5px 0px 5px;
+            line-height: 33px;
+        }
+
+        table.bottom tr.bo_center td {
+            text-align: center;
+            font-weight: bolder;
+            line-height: 27px;
+        }
+
+        table.bottom td.bo_left {
+            text-align: left;
+            font-weight: bolder;
+        }
+
+
+        .select {
+            background-color: #ddd;
+        }
+
+        #op {
+            opacity: 0;
+        }
+
+        #op:hover {
+            opacity: .5;
+        }
+
+        /* Footer Table */
+        .footer {
+            width: 100%;
+        }
+
+        .sign {
+            clear: both;
+        }
+
+        .sign div {
+            float: left;
+            width: 264px;
+            text-align: center;
+            text-decoration: overline;
+            margin-top: 60px;
+        }
+
+        .resize {
+            min-height: 500px;
+        }
+
+        .resize_w {
+            min-height: 610px;
+        }
+
+        #weekly td {
+            padding: 1px 5px 1px 5px;
+            line-height: 19px;
+            font-size: 19px;
+        }
+
+        .page_break {
+            page-break-after: always;
+        }
+
+        
