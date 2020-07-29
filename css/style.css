@@ -110,7 +110,7 @@ body{
     font-size: 14px;
     font-weight: 600;
     color: #1a265c;
-    padding: 10px 55px;
+    padding: 10px 52px;
     text-decoration: none;
 }
 
@@ -263,7 +263,7 @@ img {
     position: absolute;
     width: 50%;
     height: 640px;
-    background: #E0DBDB;
+    background: #EAE7E5;
 }
 
 .body-alumni-right{
@@ -271,7 +271,7 @@ img {
     left: 50%;
     width: 50%;
     height: 640px;
-    background: #E0DBDB;
+    background: #EAE7E5;
 }
 
 .register{
@@ -284,6 +284,51 @@ img {
     border-radius: 10px;
 }
 
+.contact{
+    position: absolute;
+    width: 70%;
+    height: 280px;
+    top:90px;
+    left: 80px;
+    background: #FDEEEE;
+    border-radius: 10px;
+}
+
+.contact-below{
+    position: absolute;
+    width: 70%;
+    height: 150px;
+    top:400px;
+    left: 80px;
+    background: #FDEEEE;
+    border-radius: 10px;
+}
+
+.cb1{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.cb2{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.cb3{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.cb4{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+
 .instructions{
     position: relative;
     width: 70%;
@@ -293,6 +338,23 @@ img {
     background: white;
     border-radius: 17px;
     margin-bottom: 15px;
+  }
+
+  .map{
+    position: relative;
+    width: 60%;
+    height: 400px;
+    top:90px;
+    left: 100px;
+    background: white;
+    border-radius: 17px;
+    
+  }
+
+  .map img{
+    width: 100%;
+    height: 400px;
+    left: 30px;
   }
 
 .student{
@@ -500,7 +562,7 @@ img {
     left: 40px;
     color: #1a265c;
     text-indent: 30px;
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 .info-13{
@@ -675,6 +737,11 @@ select{
     left: 30px;
 }
 
+.al33{
+    top: 165px;
+    left: 30px;
+}
+
 .al3{
     top: 152px;
     left: 30px;
@@ -701,6 +768,7 @@ select{
     height: 25px;
     color: #000;
 }
+
 
 .f33{
     top: 35px;
@@ -762,6 +830,19 @@ select{
     font-size: 14px;
 }
 
+.f9{
+    height: 90px;
+    top: 55px;
+    left: 25px;
+    font-size: 14px;
+}
+
+.f10{
+    top: 190px;
+    left: 25px;
+    font-size: 14px;
+}
+
 .submit{
     position: absolute;
     color: white;
@@ -789,6 +870,13 @@ select{
     width: 20%;
     height: 20px;
     top: 400px;
+    left: 50px;
+}
+
+.s4{
+    width: 20%;
+    height: 20px;
+    top: 230px;
     left: 50px;
 }
 
@@ -858,7 +946,7 @@ select{
     height: 380px;
     top: 20px;
     left: 80px;
-    background: #E0DBDB;
+    background: white;
     border-radius: 10px;
 }
 

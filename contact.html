@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLJS
+    </title>
+    <link rel="stylesheet" href="https://use.typekit.net/nfp7kim.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="header-position">
+      <header class="container-header">
+        <div class="top-nav">
+          <div class="container-top">
+            <nav class="navbar-top">
+              <div class="collapse-top">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fa fa-user">
+                      </i> My Account
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="header-middle">
+          <div class="container-middle">
+            <div class="menu">
+              <nav class="navbar-middle">
+                <a class="navbar-brand" href="">
+                  <img src="./images/logo.png" alt="">
+                </a>
+                <div class="collapse-middle">
+                  <ul class="navbar-nav">
+                    <li>
+                      <a href="index.html">Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="teachers.html">Teachers
+                      </a>
+                    </li>
+                    <li>
+                      <a href="students.html">Students
+                      </a>
+                    </li>
+                    <li>
+                      <a href="notice.html">Notices
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Events
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Admission
+                      </a>
+                    </li>
+                    <li>
+                      <a href="alumni.html">Alumni
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="date-bar">
+        <p class="date">
+          <span id="datetime">
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="body-content">
+        <div class="body-alumni-left">
+          <p class="notice align8">CONTACT US
+          </p>
+          <div class="contact"> 
+            <form action="./views/result/result.html">
+              <label class="admin-label al11" for="fname">YOUR QUERY
+              </label>
+              <br>
+              <input class="field f9" type="text" id="fname" name="fname" value="">
+              <br>
+              <label class="admin-label al33" for="lname">YOUR EMAIL
+              </label>
+              <br>
+              <input class="field f10" type="text" id="fname" name="fname" value="">
+              <br>
+              <br>
+              <input class="submit s4" type="submit" value="Submit">
+            </form>
+          </div> 
+          <div class="contact-below">
+            <p class="cb1">
+              <i class="fa fa-map-marker ">
+              </i> Abhaynagar, Jessore, Bangladesh
+            </p>
+            <p class="cb2">
+              <i class="fa fa-envelope ">
+              </i> prakashbsaikat@gmail.com
+            </p>
+            <p class="cb3">
+              <i class="fa fa-phone  ">
+              </i> +880-1755453453
+            </p>
+            <p class="cb4">
+              <i class="fa fa-fax ">
+              </i> +880-2-55668202
+            </p>
+          </div>               
+        </div>
+        <div class="body-alumni-right">
+          <p class="notice align8">LOCATION MAP
+          </p>
+          <div class="map">
+            <img src="./images/map.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="foot">
+      <p class="comp">Computer Little Jewels School
+      </p>
+      <p class="comp2">A Modern Thoughtful Kinder Garten & Junior School.
+      </p>
+      <p class="comp3">Abhaynagar, Jessore, Bangladesh
+      </p>
+      <p class="comp4">Developed & Maintained by 
+      </p>
+      <a href="peacebusters.team" class="peace">Peacebusters
+      </a>
+    </footer>
+  </body>
+  <script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+  </script>
+</html>
