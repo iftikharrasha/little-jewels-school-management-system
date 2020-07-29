@@ -100,11 +100,44 @@
                 <div class="body-right">
                     <div class="body-right-1">
                         <div class="banner">
-                            <a href=""><i class="fa fa-angle-left fa-4x banner-right" aria-hidden="true"></i></a>
+                            <!--<a href=""><i class="fa fa-angle-left fa-4x banner-right" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-angle-right fa-4x banner-left" aria-hidden="true"></i></a>
                             <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?cs=srgb&dl=accomplishment-ceremony-education-graduation-267885.jpg&fm=jpg" alt="">
                             <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?cs=srgb&dl=accomplishment-ceremony-education-graduation-267885.jpg&fm=jpg" alt="">
-                            <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?cs=srgb&dl=accomplishment-ceremony-education-graduation-267885.jpg&fm=jpg" alt="">
+                            <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?cs=srgb&dl=accomplishment-ceremony-education-graduation-267885.jpg&fm=jpg" alt="">-->
+
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+                                  
+                                  <img src="https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?cs=srgb&dl=accomplishment-ceremony-education-graduation-267885.jpg&fm=jpg" style="width:100%">
+                                
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  
+                                  <img src="https://images.pexels.com/photos/2982449/pexels-photo-2982449.jpeg?cs=srgb&dl=green-trees-between-white-concrete-buildings-2982449.jpg&fm=jpg" style="width:100%">
+                                 
+                                </div>
+                                
+                                <div class="mySlides fade">
+                                  
+                                  <img src="https://images.pexels.com/photos/356065/pexels-photo-356065.jpeg?cs=srgb&dl=auditorium-chairs-classroom-college-356065.jpg&fm=jpg" style="width:100%">
+                                </div>
+
+                                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                
+                                
+                                </div>
+
+                                <div style="text-align:center">
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span> 
+                                </div>
+
+                                
                         </div>
                     </div>
                     <div class="body-right-2">
@@ -133,6 +166,58 @@
         <a href="peacebusters.team" class="peace">Peacebusters</a>
     </footer>
 </body>
+
+<script>
+   var slideIndex = 0;
+showSlides();
+var slides,dots;
+
+function showSlides() {
+    var i;
+    slides = document.getElementsByClassName("mySlides");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 8 seconds
+}
+
+function plusSlides(position) {
+    slideIndex +=position;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    else if(slideIndex<1){slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+}
+
+function currentSlide(index) {
+    if (index> slides.length) {index = 1}
+    else if(index<1){index = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[index-1].style.display = "block";  
+    dots[index-1].className += " active";
+}
+    </script>
+
+    
 
 <script>
     var dt = new Date();
