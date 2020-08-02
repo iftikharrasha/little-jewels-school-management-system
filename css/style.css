@@ -1327,3 +1327,144 @@ ul.nav.child_menu li:after {
     position: absolute;
     top: 0;
 }---*/
+
+/**statistics*/
+.stat1{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 20px;
+    left: 45px;
+    background: white;
+}
+
+.stat2{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 20px;
+    left: 245px;
+    background: white;
+}
+
+.stat3{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 20px;
+    left: 445px;
+    background: white;
+}
+
+.stat4{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 20px;
+    left: 645px;
+    background: white;
+}
+
+.stat5{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 120px;
+    left: 45px;
+    background: white;
+}
+
+.stat6{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 120px;
+    left: 245px;
+    background: white;
+}
+
+.stat7{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 120px;
+    left: 445px;
+    background: white;
+}
+
+.stat8{
+    position: absolute;
+    width: 20%;
+    height: 80px;
+    top: 120px;
+    left: 645px;
+    background: white;
+}
+
+/**calendar***/
+.calendar{
+    width: 88%;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+
+ul {list-style-type: none;}
+
+.month {
+    padding: 10px 0px;
+    width: 100%;
+    background: #1a265c;
+    text-align: center;
+  }
+  
+  /* Month list */
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  /* Weekdays (Mon-Sun) */
+  .weekdays {
+    margin: 0;
+    padding: 15px 0;
+    background-color:#b5b2ac;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Days (1-31) */
+  .days {
+    padding: 15px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+  }
+  
+  /* Highlight the "current" day */
+  .days li .active {
+    padding: 5px;
+    background: #1a265c;
+    color: white !important
+  }
