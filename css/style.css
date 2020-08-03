@@ -268,6 +268,15 @@ img {
     background: #EAE7E5;
 }
 
+.body-notice-below{
+    position: absolute;
+    top: 40px;
+    left: 15;
+    width: 87%;
+    height: 480px;
+    background: #EAE7E5;
+}
+
 .body-alumni-left{
     position: absolute;
     width: 50%;
@@ -956,6 +965,13 @@ select{
     float: left;
   }
 
+  .body-deptright-3{
+    position: relative;
+    width: 100%;
+    height: 540px;
+    background: #EAE7E5;
+  }
+
   .notice-1{
     position: relative;
     width: 90%;
@@ -1154,6 +1170,10 @@ select{
 
 .pg2{
     left: 30px;
+    bottom: 15px;
+}
+.pg3{
+    left: 280px;
     bottom: 15px;
 }
 
