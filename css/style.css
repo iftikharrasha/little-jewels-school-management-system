@@ -259,6 +259,15 @@ img {
     background: #EAE7E5;
 }
 
+.body-dept-below{
+    position: absolute;
+    top: 40px;
+    left: 15;
+    width: 80%;
+    height: 560px;
+    background: #EAE7E5;
+}
+
 .body-alumni-left{
     position: absolute;
     width: 50%;
@@ -440,6 +449,7 @@ img {
     left: 15px;
     background: #FDEEEE;
     border-radius: 10px;
+    box-shadow: 4px 3px #888888;
 }
 
 .dash-content{
@@ -454,6 +464,7 @@ img {
 
 .nc1{
    /* top: 20px;*/
+   
 }
 
 .nc2{
@@ -898,6 +909,13 @@ select{
     left: 50px;
 }
 
+.s5{
+    width: 32%;
+    height: 20px;
+    top: 34px;
+    right: 15px;
+}
+
 .forgot{
     position: absolute;
     width: 40%;
@@ -921,6 +939,21 @@ select{
     width: 100%;
     height: 220px;
     background: #EAE7E5;
+  }
+
+  .body-adright-1{
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background: #EAE7E5;
+  }
+
+  .body-deptright-1{
+    position: relative;
+    width: 40%;
+    height: 640px;
+    background: #EAE7E5;
+    float: left;
   }
 
   .notice-1{
@@ -956,6 +989,21 @@ select{
     width: 100%;
     height: 420px;
     background: #EAE7E5;
+  }
+
+  .body-adright-2{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    background: #EAE7E5;
+  }
+
+  .body-deptright-2{
+    position: relative;
+    width: 60%;
+    height: 640px;
+    background: #EAE7E5;
+    float: right;
   }
 
   .founded{
@@ -1333,80 +1381,89 @@ ul.nav.child_menu li:after {
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 20px;
+    top: 40px;
     left: 45px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat2{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 20px;
+    top: 40px;
     left: 245px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat3{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 20px;
+    top: 40px;
     left: 445px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat4{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 20px;
+    top: 40px;
     left: 645px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat5{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 120px;
+    top: 160px;
     left: 45px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat6{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 120px;
+    top: 160px;
     left: 245px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat7{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 120px;
+    top: 160px;
     left: 445px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 .stat8{
     position: absolute;
     width: 20%;
     height: 80px;
-    top: 120px;
+    top: 160px;
     left: 645px;
     background: white;
+    box-shadow: 4px 3px #888888;
 }
 
 /**calendar***/
 .calendar{
     width: 88%;
     position: absolute;
-    top: 75px;
+    top: 40px;
     left: 50px;
+    
 }
 
 ul {list-style-type: none;}
